@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+
+
+/* -------------------- wrapper -------------------- */
+
+
+/* -------------------- header -------------------- */
+#header {
+    width: 100%;
+    margin:0;
+    
+}
+
+#sora {
+    width:100%;
+}
+
+/* -------------------- footer -------------------- */
+#footer {
+    clear: both;
+    width: 100%;
+    background-color: #B0C4DE;
+    color: #FFF;
+    text-align: center;
+}
+
+/* -------------------- nav -------------------- */
+#nav {
+    width: 100%;
+    margin:0;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#nav ul li a {
+    display: block;
+    height: 60px;
+    margin: 0;
+    color: #FFF;
+    font-size: 24px;
+    background-color: #B0C4DE;
+    border-right: solid 3px #FFF;
+}
+
+/* -------------------- container -------------------- */
+
+ /* -------------------- main -------------------- */
+ #main {
+     float: left;
+     width: 60%;
+ }
+ 
+ #main h2 {
+     margin: 0 0 10px 0;
+     padding: 20px 10px 20px 10px;
+     color: #FFF;
+     background-color: #B0C4DE;
+     font-size: 24px;
+ }
+ /* -------------------- side -------------------- */
+ 
+ #side {
+     float: right;
+     width: 20%;
+     border: solid 5px #6495ED;
+ }
+ 
+ #side .box {
+     margin: 0 0 0 0;
+     background-color:#FFF;
+     position: relative;
+     top: 5px;
+     width: 100%;
+     float: right;
+ }
+ 
+ #side .box h2 {
+     margin: 0;
+     padding: 5px 0 5px 0;
+     font-size: 24px;
+     color: #FFF;
+     background-color: #B0C4DE;
+     border: solid 2px #B0C4DE;
+     
+ }
+ 
+ #side .box ul {
+     margin: 0 0 0 0;
+     padding: 0;
+     
+ }
+ 
+ #side .box ul li {
+     list-style: none;
+     border: solid 2px #B0C4DE;
+     padding: 8px 3px 8px 3px;
+ }
+ 
+  /* -------------------- contact -------------------- */
+ 
+ #contact1 {
+     width:50%;
+     position:relative;
+     top:0px;
+     left:25%;
+     right:25%;
+     background-color:;
+     margin-top:0;
+     margin-bottom:0;
+     padding:0; 
+ }
+ 
+ #contact1 .contact-subtitle h2  {
+     background-color:#B0C4DE;
+     color:#FFF;
+     margin-top:100px;
+     padding:0;
+     border:red;
+ }
+ 
+ /* -------------------- profile -------------------- */
+#profile {
+    
+}
+
+ #profile h1 {
+     color:#FFF;
+     text-align:center;
+     background-color:#B0C4DE;
+ }
+ 
+ #profile h2 {
+     color:#FFF;
+     background-color:#B0C4DE;
+ }
+ 
+ #koheipic {
+     width:50%;
+     margin-top:50px;
+     
+ }
+ 
+ #profilepic {
+     text-align:center;
+ }
+ 
+ /* -------------------- vision -------------------- */
+#vision-title{
+    color:#FFF;
+    background-color:#B0C4DE;
+    margin-top:100px;
+}
+
+ /* -------------------- career -------------------- */
+#career-title{
+    background-color:#B0C4DE;
+    margin-top:100px;
+    color:#FFF;
+}
+
+#career-main{
+    border:solid 3px #B0C4DE;
+    padding:10px 20px 10px 20px;
+}
